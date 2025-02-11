@@ -221,19 +221,19 @@ input:checked + .slider:before {
 }
 
 .card.facebook .icon {
-  background-image: url(assets/images/icon-facebook.svg);
+  background-image: url(../images/icon-facebook.svg);
 }
 
 .card.card.twitter .icon {
-  background-image: url(assets/images/icon-twitter.svg);
+  background-image: url(../images/icon-twitter.svg);
 }
 
 .card.card.instagram .icon {
-  background-image: url(assets/images/icon-instagram.svg);
+  background-image: url(../images/icon-instagram.svg);
 }
 
 .card.card.youtube .icon {
-  background-image: url(assets/images/icon-youtube.svg);
+  background-image: url(../images/icon-youtube.svg);
 }
 
 .accounts .card::before {
@@ -313,11 +313,11 @@ input:checked + .slider:before {
 }
 
 .today.up::before {
-  background-image: url(assets/images/icon-up.svg);
+  background-image: url(../images/icon-up.svg);
 }
 
 .today.down::before {
-  background-image: url(assets/images/icon-down.svg);
+  background-image: url(../images/icon-down.svg);
 }
 
 .today.down {
@@ -366,7 +366,7 @@ footer {
   font-size: 12px;
 }
 
-footer a{
+footer a {
   color: var(--bright-red);
 }
 @media screen and (min-width: 768px) {
